@@ -5,7 +5,7 @@ Demo Game of RockScissorsPaper!!! ✊✌✋
 Rules of the game!
 
 1. The game plays from 10 rounds!
-2. Evry round you have to chose one of three options: Rock, Scissors or Paper!
+2. Every round you have to chose one of three options: Rock, Scissors or Paper!
 3. The Roch win Scissors; the Paper win Rock; the Scissors win Paper!
 4. When your choice is winner, you get a point. Respectively the same for the computer!
 5. When your choice and the computer choice are the same, the result of the round is draw. Then nobody get a point!
