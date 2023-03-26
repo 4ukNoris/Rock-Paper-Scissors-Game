@@ -10,44 +10,14 @@ public class RockPaperScissors {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Choose [r]ock, [p]aper or [s]cissors: ");
 
-        String playerMove = scanner.nextLine();
 
 
         if ("r".equals(playerMove) || "rock".equals(playerMove)) {
             playerMove = ROCK;
 
-        } else if ("p".equals(playerMove) || "paper".equals(playerMove)) {
-            playerMove = PAPER;
-
-        } else if ("s".equals(playerMove) || "scissors".equals(playerMove)) {
-            playerMove = SCISSORS;
-
-        } else {
-            System.out.println("Invalid Input. Try Again...");
-            return;
-        }
-        System.out.printf("My chose is: %s\n", playerMove);
 
 
-        Random random = new Random();
-        int computerRandomNumber = random.nextInt(4);
-
-        String computerMove = "";
-
-        switch (computerRandomNumber) {
-            case 1:
-                computerMove = ROCK;
-                break;
-            case 2:
-                computerMove = PAPER;
-                break;
-            case 3:
-                computerMove = SCISSORS;
-                break;
-            default:
-                return;
         }
         System.out.printf("The computer chose %s\n", computerMove);
 
@@ -55,13 +25,8 @@ public class RockPaperScissors {
                 playerMove.equals(PAPER) && computerMove.equals(ROCK) ||
                 playerMove.equals(SCISSORS) && computerMove.equals(PAPER)){
 
-            System.out.println("You win!");
 
-        } else if (playerMove.equals(ROCK) && computerMove.equals(PAPER) ||
-                playerMove.equals(PAPER) && computerMove.equals(SCISSORS) ||
-                playerMove.equals(SCISSORS) && computerMove.equals(ROCK)) {
 
-            System.out.println("You lose!");
 
         }else {
             System.out.println("This game is draw!");
