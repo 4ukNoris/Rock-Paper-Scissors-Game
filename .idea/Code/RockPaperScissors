@@ -13,23 +13,15 @@ public class RockPaperScissors {
 
 
 
-        if ("r".equals(playerMove) || "rock".equals(playerMove)) {
-            playerMove = ROCK;
 
 
 
         }
-        System.out.printf("The computer chose %s\n", computerMove);
-
-        if (playerMove.equals(ROCK) && computerMove.equals(SCISSORS) ||
-                playerMove.equals(PAPER) && computerMove.equals(ROCK) ||
-                playerMove.equals(SCISSORS) && computerMove.equals(PAPER)){
 
 
 
 
-        }else {
-            System.out.println("This game is draw!");
+
         }
     }
 }
