@@ -40,20 +40,15 @@ public class RockPaperScissors {
 
 
             Random random = new Random();
-            int computerRandomNumber = random.nextInt(4);
 
             String computerMove = "";
 
             switch (computerRandomNumber) {
                 case 0:
-                case 1:
                     computerMove = ROCK;
                     break;
                 case 2:
                     computerMove = PAPER;
-                    break;
-                case 3:
-                    computerMove = SCISSORS;
                     break;
                 default:
                     System.out.println("The computer is not responding. Try again...");
@@ -77,7 +72,6 @@ public class RockPaperScissors {
                 System.out.println("The computer get a point!");
 
             } else {
-                System.out.println("This game is draw!");
 
             }
 
@@ -95,10 +89,8 @@ public class RockPaperScissors {
 
 
         } else {
-            System.out.println("Nobody win the game!");
 
         }
         System.out.println();
-        System.out.printf("Player points: %d || Computer points: %d", playerPoints, computerPoints);
     }
 }
