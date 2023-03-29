@@ -11,6 +11,7 @@ Rules of the game!
 5. When your choice and the computer choice are the same, the result of the round is draw. Then nobody get a point!
 6. After the all rounds who have more points, win the game!
 7. If the points are equals, the game ends with a draw result
-8. If player or computer inscribe invalid command the round is not counted and must be repeated!
+8. If player inscribe invalid command the round is not counted and must be repeated!
 
 ENJOY THE GAME!😍
+
